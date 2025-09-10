@@ -9,10 +9,10 @@ def main():
         words =()
         content = get_book_text("./books/frankenstein.txt")
         for num in content:
-	        num.split("")
+        	content.split("")
                 words.append()
                 count += 1
-        return words, count
+	return words, count
 
         
 main()
